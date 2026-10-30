@@ -11,13 +11,14 @@ By training, I am a physicist. I am a PhD researcher at University College Londo
 **The 20 GeV Galactic halo excess.** An independent, pixel-level reanalysis of the halo-like excess in *Fermi*-LAT data: 17 years of photons, 750,000 pixels, a 15-model foreground suite, and tests of the dark matter reading against dwarf galaxies, the CMB and antiprotons. It finds the excess is real and spectrally structured, and consistent with (not a detection of) sub-TeV WIMP annihilation. Under review at *Physical Review D*.
 [Paper](https://arxiv.org/abs/2607.08552) · [Code](https://github.com/trinitystenhouse/Totani-Reanalysis) · [Archive](https://doi.org/10.5281/zenodo.21280724)
 
-**Photon–dark matter scattering.** Every gauge-invariant effective operator for elastic photon–dark matter scattering up to dimension 7, with the first operator-resolved sensitivity estimates from astrophysical data. Includes a proof that two operator classes are invisible to photon attenuation at tree level. Under review at *Physical Review D*.
+**Photon–dark matter scattering.** Every gauge-invariant effective operator for elastic photon–dark matter scattering up to dimension 7, with the first operator-resolved sensitivity estimates from astrophysical data. It shows that two operator classes are invisible to photon attenuation at tree level, and that attenuation discriminates Dirac from Majorana dark matter. Under review at *Physical Review D*.
 [Paper](https://arxiv.org/abs/2608.29546) · [Code](https://github.com/trinitystenhouse/EFT_Operator_Scan) · [Archive](https://doi.org/10.5281/zenodo.21703809)
 
+**Combined dark matter likelihoods.** Extending GAMBIT, the public global-fit framework, to velocity-dependent annihilation and inelastic scattering, so that models proposed for current anomalies can be tested against direct and indirect detection at once. Built through gated agent workflows. In progress.
 
 ### How I work
 
-I care about research code that can be trusted: pass criteria fixed before the data are read, validation against published results, simulated-data checks, and every quoted number traced to the output and code version that produced it. That applies to code I write and to code written with AI agents.
+I care about research code that can be trusted: pass criteria fixed before the data are read, validation against published results, simulated-data checks, and every quoted number traced to the output and code version that produced it. That applies to code I write and to code written with AI agents. [This demo](https://github.com/trinitystenhouse/gambit-agent-demo) shows what that looks like in practice: my briefs, the agent's reasoning, and a failed gate that stayed failed until the work was fixed.
 
 ## Building
 
